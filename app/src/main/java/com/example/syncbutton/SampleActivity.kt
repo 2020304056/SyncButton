@@ -61,6 +61,7 @@ class SampleActivity : AppCompatActivity() {
         }
     }
 
+
     private fun doWork(): String {
         Thread.sleep(1000)
         return "작업 완료"
